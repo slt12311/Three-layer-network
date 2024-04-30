@@ -1,8 +1,8 @@
 # 代码结构
 
-data：存储下载的数据集
+data文件夹：存储下载的数据集（train-labels-idx1-ubyte.gz/train-images-idx3-ubyte.gz/t10k-images-idx3-ubyte.gz/t10k-labels-idx1-ubyte.gz）
 
-model：存储训练的最优模型权重
+mode文件夹l：存储训练的最优模型权重
 
 data_loader.py：数据读取和处理，定义DataLoader类
 
